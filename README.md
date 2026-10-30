@@ -209,12 +209,6 @@ Transformations:
 
 The exact grains of periodic facts and the order process fact should be verified against the final data.
 
-### Transformation Example
-
-The following example demonstrates one of the data preparation and transformation steps performed using Power Query.
-
-![Transformation Example](screenshots/transformation_example.png)
-
 ## 7. Final Model Structure
 
 ### Fact Tables
@@ -222,7 +216,7 @@ The following example demonstrates one of the data preparation and transformatio
 | Fact Table | Intended Grain | Purpose |
 |---|---|---|
 | `fact_sales` | One row per order line | Sales analysis |
-| `fact_order_process` | One row per order (verify) | Order lifecycle analysis |
+| `fact_order_process` | One row per order  | Order lifecycle analysis |
 | `fact_inventory` | Product and reporting period | Inventory analysis |
 | `fact_campaign_log` | Campaign and reporting date | Campaign performance |
 | `factless_campaign` | Campaign-product combination | Promotion coverage |
@@ -333,10 +327,10 @@ powerbi-data-modeling-star-schema/
 │   ├── original_data_model.png
 │   ├── final_data_model.png
 │   ├── power_query_organization.png
-│   └── transformation_example.png
+│   
+├── data/
+│   ├── raw_tables.xlsx
 │
-├── documentation/
-│   └── additional_project_notes.md
-│
-└── power-bi/
-    └── README.md
+├── power-bi/
+│   ├── powerbi-data-modeling.pbix
+
