@@ -19,8 +19,6 @@ The main objectives were to:
 - Remove redundant tables and unnecessary columns.
 - Implement DAX measures and regional Row-Level Security.
 
-> **Project type:** Guided hands-on project documenting practical transformations, modeling decisions, and implementation challenges.
-
 ## 2. Business Context
 
 The dataset represents a global B2B business selling products to customers across multiple regions.
